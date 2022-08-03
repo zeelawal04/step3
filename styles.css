@@ -1,0 +1,56 @@
+* {
+  padding: 00;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16957b;
+}
+
+section {
+  width: 45%;
+  height: 70vh;
+  position: relative;
+  margin: 5rem auto;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 1rem 3.4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16rem;
+  margin: 2rem auto;
+}
+img.acct {
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 3px;
+}
+
+.welcome {
+  color: rgba(0, 0, 0, 0.3);
+  margin: 1rem auto;
+  font-size: 13px;
+}
+
+.word {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 2rem 0;
+  margin: -1rem auto;
+}
+.price {
+  font-weight: bolder;
+  font-size: large;
+}
+
+img.bicycle {
+  width: 80%;
+  position: absolute;
+  bottom: -6.2rem;
+}
